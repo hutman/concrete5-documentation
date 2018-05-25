@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>Logging - Hutman Concrete5 Documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="Hutman, Inc.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="themes/hutman/favicon.ico" type="image/x-icon">
+
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='themes/hutman/css/theme.css' rel='stylesheet' type='text/css'><link href='themes/hutman/css/theme.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+    <script src="themes/daux/js/html5shiv-3.7.3.min.js"></script>
+    <![endif]-->
+</head>
+<body class=" ">
+    <div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <button type="button" class="Button Collapsible__trigger">
+            <span class="Collapsible__trigger__bar"></span>
+            <span class="Collapsible__trigger__bar"></span>
+            <span class="Collapsible__trigger__bar"></span>
+        </button>
+
+        <a class="Brand" href="index.html">Hutman Concrete5 Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+            <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
+        </svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on"
+               results=25 autosave=text_search>
+    </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item '><a href="Developers_Guide.html">Developers Guide</a></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Blocks</a><ul class='Nav'><li class='Nav__item '><a href="Blocks/Overview.html">Overview</a></li><li class='Nav__item '><a href="Blocks/Directory_Setup.html">Directory Setup</a></li><li class='Nav__item '><a href="Blocks/Controller.html">Controller</a></li><li class='Nav__item '><a href="Blocks/Block_Types.html">Block Types</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Forms</a><ul class='Nav'><li class='Nav__item '><a href="Forms/Standard_Widgets.html">Standard Widgets</a></li><li class='Nav__item  has-children'><a href="Forms/Concrete5_Widgets/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Concrete5 Widgets</a><ul class='Nav'><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Calendar_Event_Selector.html">Calendar Event Selector</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Captcha.html">Captcha</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Color_Picker.html">Color Picker</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Date_Time.html">Date Time</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Page_Selector.html">Page Selector</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/Rating.html">Rating</a></li><li class='Nav__item '><a href="Forms/Concrete5_Widgets/User_Selector.html">User Selector</a></li></ul></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Helpers</a><ul class='Nav'><li class='Nav__item '><a href="Helpers/JSON.html">JSON</a></li><li class='Nav__item '><a href="Helpers/Navigation.html">Navigation</a></li><li class='Nav__item '><a href="Helpers/Text.html">Text</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Jobs</a><ul class='Nav'><li class='Nav__item '><a href="Jobs/Overview.html">Overview</a></li><li class='Nav__item '><a href="Jobs/Job_Sets.html">Job Sets</a></li></ul></li><li class='Nav__item Nav__item--active'><a href="Logging.html">Logging</a></li><li class='Nav__item '><a href="Mail.html">Mail</a></li><li class='Nav__item  has-children'><a href="Pages/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Pages</a><ul class='Nav'><li class='Nav__item '><a href="Pages/Overview.html">Overview</a></li><li class='Nav__item '><a href="Pages/Listing_&_Searching.html">Listing & Searching</a></li><li class='Nav__item '><a href="Pages/Single_Pages.html">Single Pages</a></li><li class='Nav__item '><a href="Pages/Page_Types.html">Page Types</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://github.com/orgs/hutman" target="_blank">GitHub Repo</a>
+                        <br />
+                                            <a href="https://www.hutman.net" target="_blank">Hutman Website</a>
+                        <br />
+                                                </div>
+
+                                <div class="CodeToggler">
+                        <hr/>
+                                                    <label class="Checkbox">Show Code Blocks                                <input type="checkbox" class="CodeToggler__button--main" checked="checked"/>
+                                <div class="Checkbox__indicator"></div>
+                            </label>
+                                            </div>
+                
+                
+                        </div>
+    </aside>
+    <div class="Columns__right Columns__right--full">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1><a href="Logging.html">Logging</a></h1>
+                    </div>
+
+    <div class="s-content">
+        <p>In concrete5, logging something so that it appears in the Dashboard can be as simple as a single line.</p>
+<pre><code>\Log::addInfo('This is an informative message');
+\Log::addWarning('Uh oh.');
+\Log::addAlert('Red alert!');
+Log::addDebug('This is a debug level.');
+</code></pre>
+<p>This is using the Log facade, which is a static class in the root namespace that automatically instantiates the Concrete\Core\Logging\Logger class with its dependencies. If you import the Log class at the top of your file, you don't have to use the backslash:</p>
+<h2 id="page_Severity">Severity</h2>
+<p>concrete5's logger implements PSR-3, and is built on the Monolog library. That means it supports the following severities (which are listed here in escalating order.)</p>
+<ul>
+<li>Debug</li>
+<li>Info</li>
+<li>Notice</li>
+<li>Warning</li>
+<li>Error</li>
+<li>Critical</li>
+<li>Alert</li>
+<li>Emergency</li>
+</ul>
+<p>To log a message with a particular severity, simply call Log::addSeverity, concrete5 makes it easy to search by severity in the Dashboard.</p>
+<h2 id="page_Logging-Objects">Logging Objects</h2>
+<p>Need to log an object using the logger? You'll need to change it into a string first. Here's an example of logging the data about Concrete\Core\User\UserInfo object:</p>
+<pre><code>$ui = \UserInfo::getByID(1);
+\Log::addInfo('Information about the admin user: ' . var_dump_safe($ui, $false));
+</code></pre>
+<p>Why var_dump_safe? Some objects in concrete5 are built from Doctrine ORM, which is a library that makes it easy to work with database data. These objects are extremely large; if you attempt to run a normal var_dump or print_r on them, they will die and possibly crash your PHP session. Instead, use the concrete5-specific var_dump_safe method, with the $echo argument (the second argument) set to false.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="Jobs/Job_Sets.html">Previous</a></li>            <li class=Pager--next><a href="Mail.html">Next</a></li>        </ul>
+    </nav>
+    </article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- JS -->
+    <script src="themes/hutman/js/jquery-1.11.3.min.js"></script><script src="themes/hutman/js/highlight.pack.js"></script><script src="themes/hutman/js/daux.js"></script><script src="themes/hutman/js/init.js"></script>
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': ''
+                });
+            });
+        </script>
+    
+</body>
+</html>

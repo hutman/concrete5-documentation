@@ -1,0 +1,16 @@
+{
+    "title": "Hutman Concrete5 Documentation",
+    "tagline": "",
+    "author": "Hutman, Inc.",
+    "image": "logo.png",
+    "format": "html",
+    "timezone": "America/Chicago",
+    "html": {
+        "theme": "hutman-default",
+        "float": false,
+        "links": {
+            "GitHub Repo": "https://github.com/orgs/hutman",
+            "Hutman Website": "https://www.hutman.net"
+        }
+    }
+}

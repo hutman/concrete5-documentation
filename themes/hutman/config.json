@@ -1,0 +1,17 @@
+{
+    "favicon": "<theme_url>favicon.ico",
+    "css": ["<theme_url>css/theme.css"],
+    "js": [
+        "<theme_url>js/jquery-1.11.3.min.js",
+        "<theme_url>js/highlight.pack.js",
+        "<theme_url>js/daux.js",
+        "<theme_url>js/init.js"
+    ],
+    "fonts": ["https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic"],
+    "variants": {
+        "default": {
+            "favicon": "<theme_url>favicon.ico",
+            "css": ["<theme_url>css/theme.css"]
+        }
+    }
+}
